@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+
+.container{
+	width: 100vh;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+.etch-a-sketch{
+	width: 80%;
+	height: 80%;
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tile{
+	box-sizing: border-box;
+}
+
+.button-container {
+	padding-top: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
